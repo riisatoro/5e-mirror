@@ -1,4 +1,4 @@
-# 5e.tools
+# Personal open-source copy of 5e.tools
 
 Visit the [main site](https://5e.tools/index.html) or go to the unofficial GitHub [mirror](index.html).
 

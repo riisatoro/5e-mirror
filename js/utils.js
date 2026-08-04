@@ -9095,6 +9095,11 @@ globalThis.ExcludeUtil = class {
 			ExcludeUtil._excludes = ExcludeUtil._getValidExcludes(
 				await StorageUtil.pGet(VeCt.STORAGE_EXCLUDES) || [],
 			);
+			try {
+				await ExcludeUtil._pMutApplyExcludedSourcesFile();
+			} catch (e) {
+				setTimeout(() => { throw e; });
+			}
 			this._doBuildCache();
 		} catch (e) {
 			JqueryUtil.doToast({
@@ -9133,6 +9138,73 @@ globalThis.ExcludeUtil = class {
 		ExcludeUtil._excludes = toSet;
 		ExcludeUtil._cache_excludesLookup = null;
 		await ExcludeUtil.pSave();
+	}
+
+	/**
+	 * Exclude all content from the given sources (wildcard hash/category).
+	 * @param {string[]} sources Source abbreviations, e.g. `["EGW", "TCE"]`.
+	 * @param {object} [opts]
+	 * @param {boolean} [opts.isAuto]
+	 */
+	static async pExcludeSources (sources, {isAuto = false} = {}) {
+		const cleanSources = [...new Set((sources || []).filter(Boolean))];
+		if (!cleanSources.length) return;
+
+		await ExcludeUtil.pExtendList(
+			cleanSources.map(source => ExcludeUtil._getExcludeSourceMeta(source, {isAuto})),
+		);
+	}
+
+	static _getExcludeSourceMeta (source, {isAuto = false, isFromExcludedSourcesFile = false} = {}) {
+		return {
+			displayName: "*",
+			hash: "*",
+			category: "*",
+			source,
+			isAuto,
+			isFromExcludedSourcesFile,
+		};
+	}
+
+	/** Sync blocklist entries from root `excluded-sources.json`. */
+	static async _pMutApplyExcludedSourcesFile () {
+		const json = await DataUtil.loadRawJSON(`${Renderer.get().baseUrl}excluded-sources.json`);
+		const sources = [...new Set(
+			(json?.sources || [])
+				.map(it => typeof it === "string" ? it : it?.source)
+				.filter(Boolean),
+		)];
+
+		const prev = ExcludeUtil._excludes || [];
+		const kept = prev.filter(it => !it.isFromExcludedSourcesFile);
+
+		const existingSourceExcludes = new Set(
+			kept
+				.filter(it => it.hash === "*" && it.category === "*")
+				.map(it => String(it.source).toLowerCase()),
+		);
+
+		const fromFile = sources
+			.filter(source => !existingSourceExcludes.has(String(source).toLowerCase()))
+			.map(source => ExcludeUtil._getExcludeSourceMeta(source, {
+				isAuto: true,
+				isFromExcludedSourcesFile: true,
+			}));
+
+		const prevFileSources = prev
+			.filter(it => it.isFromExcludedSourcesFile)
+			.map(it => String(it.source).toLowerCase())
+			.sort()
+			.join("\0");
+		const nxtFileSources = fromFile
+			.map(it => String(it.source).toLowerCase())
+			.sort()
+			.join("\0");
+
+		ExcludeUtil._excludes = [...kept, ...fromFile];
+		ExcludeUtil._cache_excludesLookup = null;
+
+		if (prevFileSources !== nxtFileSources) await ExcludeUtil._pSave();
 	}
 
 	/**

@@ -30,7 +30,8 @@
 				"lootTables": [
 					"Magic Item Table B"
 				]
-			}
+			},
+			"price": 25
 		},
 		{
 			"name": "+1 Armor",
@@ -57,7 +58,8 @@
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "+1 Shield (*)",
@@ -82,7 +84,8 @@
 				"entries": [
 					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "+1 Weapon",
@@ -122,7 +125,8 @@
 				"lootTables": [
 					"Magic Item Table F"
 				]
-			}
+			},
+			"price": 1000
 		},
 		{
 			"name": "+1 Weapon (no damage)",
@@ -142,7 +146,8 @@
 				"entries": [
 					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon."
 				]
-			}
+			},
+			"price": 1000
 		},
 		{
 			"name": "+2 Ammunition",
@@ -170,7 +175,8 @@
 				"lootTables": [
 					"Magic Item Table C"
 				]
-			}
+			},
+			"price": 100
 		},
 		{
 			"name": "+2 Armor",
@@ -196,7 +202,8 @@
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				]
-			}
+			},
+			"price": 6000
 		},
 		{
 			"name": "+2 Shield (*)",
@@ -221,7 +228,8 @@
 				"entries": [
 					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
 				]
-			}
+			},
+			"price": 6000
 		},
 		{
 			"name": "+2 Weapon",
@@ -253,7 +261,8 @@
 				"lootTables": [
 					"Magic Item Table G"
 				]
-			}
+			},
+			"price": 4000
 		},
 		{
 			"name": "+2 Weapon (no damage)",
@@ -273,7 +282,8 @@
 				"entries": [
 					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon."
 				]
-			}
+			},
+			"price": 4000
 		},
 		{
 			"name": "+3 Ammunition",
@@ -301,7 +311,8 @@
 				"lootTables": [
 					"Magic Item Table D"
 				]
-			}
+			},
+			"price": 400
 		},
 		{
 			"name": "+3 Armor",
@@ -323,7 +334,8 @@
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				]
-			}
+			},
+			"price": 24000
 		},
 		{
 			"name": "+3 Shield (*)",
@@ -348,7 +360,8 @@
 				"entries": [
 					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
 				]
-			}
+			},
+			"price": 24000
 		},
 		{
 			"name": "+3 Weapon",
@@ -376,7 +389,8 @@
 				"lootTables": [
 					"Magic Item Table H"
 				]
-			}
+			},
+			"price": 16000
 		},
 		{
 			"name": "+3 Weapon (no damage)",
@@ -396,7 +410,8 @@
 				"entries": [
 					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon."
 				]
-			}
+			},
+			"price": 16000
 		},
 		{
 			"name": "Acheron Blade",
@@ -430,7 +445,8 @@
 						]
 					}
 				]
-			}
+			},
+			"price": 1350
 		},
 		{
 			"name": "Adamantine Ammunition",
@@ -486,7 +502,8 @@
 				"entries": [
 					"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit."
 				]
-			}
+			},
+			"price": 500
 		},
 		{
 			"name": "Adamantine Weapon",
@@ -717,7 +734,8 @@
 				"entries": [
 					"This armor never gets dirty."
 				]
-			}
+			},
+			"price": 115
 		},
 		{
 			"name": "Armor of Lightning Resistance",
@@ -1000,7 +1018,8 @@
 					"Once {=baseName/a} {=baseName/l} of slaying deals its extra damage to a creature, it becomes a nonmagical {=baseName/l}."
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 600
 		},
 		{
 			"name": "Ascendant Dragon's Wrath Weapon",
@@ -1247,7 +1266,8 @@
 				"entries": [
 					"You can doff this armor as an action."
 				]
-			}
+			},
+			"price": 75
 		},
 		{
 			"name": "Clockwork Armor",
@@ -1291,7 +1311,8 @@
 					"You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
 					"When you hit an undead creature with an attack using this weapon, the attack deals an extra {@damage 1d8} damage of the weapon's type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn."
 				]
-			}
+			},
+			"price": 1950
 		},
 		{
 			"name": "Crystal Blade",
@@ -1351,7 +1372,8 @@
 					"Magic Item Table H"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 5000
 		},
 		{
 			"name": "Defender",
@@ -1382,7 +1404,8 @@
 					"Magic Item Table I"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 24000
 		},
 		{
 			"name": "Demon Skin",
@@ -1475,7 +1498,8 @@
 					"Magic Item Table G"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 8000
 		},
 		{
 			"name": "Dragon Wing Bow",
@@ -1492,7 +1516,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
-					"The limb tips of this magic bow are shaped like a dragon's wings, and the weapon is infused with the essence of a chromatic, gem, or metallic dragon's breath. When you hit with an attack roll using this magic bow, the target takes an extra {@damage 1d6} damage of the same type as the breath infused in the bow\u2014acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.",
+					"The limb tips of this magic bow are shaped like a dragon's wings, and the weapon is infused with the essence of a chromatic, gem, or metallic dragon's breath. When you hit with an attack roll using this magic bow, the target takes an extra {@damage 1d6} damage of the same type as the breath infused in the bow—acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.",
 					"If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you pull back the string. The ammunition created by the bow vanishes the instant after it hits or misses a target."
 				]
 			}
@@ -1753,7 +1777,8 @@
 					"Magic Item Table G"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 5000
 		},
 		{
 			"name": "Fool's Blade",
@@ -1853,7 +1878,8 @@
 					"Magic Item Table H"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 4000
 		},
 		{
 			"name": "Gambler's Blade",
@@ -1871,7 +1897,7 @@
 				"reqAttune": true,
 				"curse": true,
 				"entries": [
-					"Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (\u22121 to \u22123) to your death saving throws. You can change this magical bonus each day at dawn.",
+					"Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.",
 					{
 						"name": "Curse",
 						"type": "entries",
@@ -1912,7 +1938,8 @@
 					"Magic Item Table G"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 5000
 		},
 		{
 			"name": "Glimmering Moonbow",
@@ -2001,7 +2028,8 @@
 					}
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 750
 		},
 		{
 			"name": "Holy Avenger",
@@ -2036,7 +2064,8 @@
 					"Magic Item Table I"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 165000
 		},
 		{
 			"name": "Imbued Wood (Fernian Ash)",
@@ -2288,7 +2317,8 @@
 					"You have a {=bonusAc} bonus to AC while wearing this armor, which shimmers softly.",
 					"If you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend within 30 feet of you must succeed on a {@dc 15} Charisma saving throw or be banished to its home plane of existence, unless it is already there."
 				]
-			}
+			},
+			"price": 9750
 		},
 		{
 			"name": "Living Armor",
@@ -2322,7 +2352,8 @@
 						]
 					}
 				]
-			}
+			},
+			"price": 14250
 		},
 		{
 			"name": "Luck Blade",
@@ -2423,7 +2454,8 @@
 				"lootTables": [
 					"Magic Item Table B"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Mind Blade",
@@ -2527,7 +2559,8 @@
 				"lootTables": [
 					"Magic Item Table B"
 				]
-			}
+			},
+			"price": 800
 		},
 		{
 			"name": "Mizzium Armor",
@@ -2609,7 +2642,8 @@
 						"dim": 30
 					}
 				]
-			}
+			},
+			"price": 115
 		},
 		{
 			"name": "Nine Lives Stealer",
@@ -2641,7 +2675,8 @@
 					"Magic Item Table H"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 8000
 		},
 		{
 			"name": "Orb of Shielding (Fernian Basalt)",
@@ -3195,7 +3230,8 @@
 				"entries": [
 					"Wisps of harmless, odorless smoke rise from this armor while it is worn."
 				]
-			}
+			},
+			"price": 115
 		},
 		{
 			"name": "Starshot Crossbow",
@@ -3340,7 +3376,8 @@
 					"Magic Item Table G"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 1000
 		},
 		{
 			"name": "Sword of Retribution",
@@ -3415,7 +3452,8 @@
 					"Magic Item Table H"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 1700
 		},
 		{
 			"name": "Sword of the Planes",
@@ -3478,7 +3516,8 @@
 				"lootTables": [
 					"Magic Item Table F"
 				]
-			}
+			},
+			"price": 600
 		},
 		{
 			"name": "Sword of Wounding",
@@ -3503,7 +3542,8 @@
 				"lootTables": [
 					"Magic Item Table G"
 				]
-			}
+			},
+			"price": 2000
 		},
 		{
 			"name": "Vicious +1 Weapon",
@@ -3566,7 +3606,8 @@
 					"Magic Item Table G"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 350
 		},
 		{
 			"name": "Vorpal Sword",
@@ -3597,7 +3638,8 @@
 					"Magic Item Table I"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 24000
 		},
 		{
 			"name": "Wakened Dragon's Wrath Weapon",
@@ -3643,7 +3685,8 @@
 				"entries": [
 					" This ammunition packs a wallop. A creature hit by the ammunition must succeed on a {@dc 10} Strength saving throw or be knocked {@condition prone}."
 				]
-			}
+			},
+			"price": 45
 		},
 		{
 			"name": "Weapon of Agonizing Paralysis",
@@ -3684,7 +3727,8 @@
 				"entries": [
 					"When you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn."
 				]
-			}
+			},
+			"price": 2250
 		},
 		{
 			"name": "Weapon of Throne's Command",
@@ -3761,7 +3805,8 @@
 					"Magic Item Table F"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 10000
 		},
 		{
 			"name": "Winged Ammunition",

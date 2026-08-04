@@ -115,7 +115,7 @@ class ItemsSublistManager extends SublistManager {
 				source: Parser.sourceJsonToAbv(item.source),
 				...ListItem.getCommonValues(item),
 				weight: Parser.weightValueToNumber(item.weight),
-				cost: item.value || 0,
+				cost: Parser.itemValueInCopper(item) || 0,
 			},
 			{
 				hash,
@@ -149,7 +149,8 @@ class ItemsSublistManager extends SublistManager {
 			const count = it.data.count;
 			cntItems += it.data.count;
 			if (item.weight) weight += Number(item.weight) * count;
-			if (item.value) value += item.value * count;
+			const itemValueCp = Parser.itemValueInCopper(item);
+			if (itemValueCp) value += itemValueCp * count;
 		});
 
 		this._totalWeight.vee.txt(Parser.itemWeightToFull({weight}, true));
@@ -336,7 +337,7 @@ class ItemsPage extends ListPage {
 					source,
 					...ListItem.getCommonValues(item),
 					type,
-					cost: item.value || 0,
+					cost: Parser.itemValueInCopper(item) || 0,
 					weight: Parser.weightValueToNumber(item.weight),
 				},
 				{
@@ -358,13 +359,14 @@ class ItemsPage extends ListPage {
 						href: `#${hash}`,
 						clazz: "ve-lst__row-border ve-lst__row-inner",
 						children: [
-							veE({tag: "span", clazz: `ve-col-3-5 ve-pl-0 ve-bold`, txt: item.name}),
-							veE({tag: "span", clazz: `ve-col-4`, txt: type}),
-							veE({tag: "span", clazz: `ve-col-1-5 ve-text-center`, txt: item._l_weight}),
+							veE({tag: "span", clazz: `ve-col-3 ve-pl-0 ve-bold`, txt: item.name}),
+							veE({tag: "span", clazz: `ve-col-3`, txt: type}),
+							veE({tag: "span", clazz: `ve-col-1-5 ve-px-1 ve-text-center`, txt: item._l_value}),
+							veE({tag: "span", clazz: `ve-col-1-2 ve-text-center`, txt: item._l_weight}),
 							veE({tag: "span", clazz: `ve-col-0-6 ve-text-center`, txt: item._attunementCategory !== VeCt.STR_NO_ATTUNEMENT ? "×" : ""}),
 							veE({
 								tag: "span",
-								clazz: `ve-col-1-4 ve-text-center ${item.rarity ? `ve-itm__rarity-${item.rarity}` : ""}`,
+								clazz: `ve-col-1-2 ve-text-center ${item.rarity ? `ve-itm__rarity-${item.rarity}` : ""}`,
 								title: (item.rarity || "").toTitleCase(),
 								txt: Parser.itemRarityToShort(item.rarity) || "",
 							}),
@@ -387,6 +389,7 @@ class ItemsPage extends ListPage {
 					source,
 					...ListItem.getCommonValues(item),
 					type,
+					cost: Parser.itemValueInCopper(item) || 0,
 					rarity: item.rarity,
 					attunement: item._attunementCategory !== VeCt.STR_NO_ATTUNEMENT,
 					weight: Parser.weightValueToNumber(item.weight),
