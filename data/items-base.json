@@ -3177,7 +3177,7 @@
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
-				"Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
+				"Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children—to the parents' delight or regret."
 			]
 		},
 		{
@@ -3654,7 +3654,7 @@
 			"abbreviation": "A",
 			"source": "PHB",
 			"page": 146,
-			"template": "{{prop_name_lower}} ({{item.range}}\u00A0ft.)",
+			"template": "{{prop_name_lower}} ({{item.range}} ft.)",
 			"entries": [
 				{
 					"type": "entries",
@@ -3670,7 +3670,7 @@
 			"abbreviation": "AF",
 			"source": "DMG",
 			"page": 267,
-			"template": "{{prop_name_lower}} ({{item.range}}\u00A0ft.)",
+			"template": "{{prop_name_lower}} ({{item.range}} ft.)",
 			"entries": [
 				{
 					"type": "entries",
@@ -3798,7 +3798,7 @@
 			"abbreviation": "T",
 			"source": "PHB",
 			"page": 147,
-			"template": "{{prop_name_lower}} ({{item.range}}\u00A0ft.)",
+			"template": "{{prop_name_lower}} ({{item.range}} ft.)",
 			"entries": [
 				{
 					"type": "entries",
@@ -3819,7 +3819,7 @@
 					"type": "entries",
 					"name": "Versatile",
 					"entries": [
-						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack."
 					]
 				}
 			]

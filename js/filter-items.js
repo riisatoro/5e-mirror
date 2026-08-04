@@ -97,7 +97,7 @@ class PageFilterEquipment extends PageFilterBase {
 	}
 
 	static _mutateForFilters_mutFilterValue (item) {
-		if (item.value || item.valueMult) {
+		if (item.value || item.valueMult || item.price != null) {
 			item._l_value = Parser.itemValueToFullMultiCurrency(item, {isShortForm: true}).replace(/ +/g, "\u00A0");
 			return;
 		}
@@ -152,6 +152,7 @@ class PageFilterEquipment extends PageFilterBase {
 		}
 
 		FilterCommon.mutateForFilters_cost(item, {prop: "value"});
+		if (!item.value && item.price != null) item._fCost = Math.round(Number(item.price) * 100);
 
 		item._fDamageDice = [];
 		if (item.dmg1) item._fDamageDice.push(item.dmg1);

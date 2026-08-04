@@ -683,8 +683,19 @@ Parser.stringToCasedSlug = function (str) {
 
 Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Warlock", "Wizard"];
 
+/**
+ * Item cost in copper pieces. Prefers official `value`; falls back to custom `price` (gp).
+ * @param item
+ * @returns {?number}
+ */
+Parser.itemValueInCopper = function (item) {
+	if (item?.value != null) return item.value;
+	if (item?.price != null) return Math.round(Number(item.price) * 100);
+	return null;
+};
+
 Parser.itemValueToFull = function (item, opts = {isShortForm: false, isSmallUnits: false}) {
-	return Parser._moneyToFull(item, "value", "valueMult", opts);
+	return Parser._moneyToFull(Parser._itemMoneyEnt(item), "value", "valueMult", opts);
 };
 
 /**
@@ -704,7 +715,15 @@ Parser.itemValueToFullMultiCurrency = function (
 		styleHint: null,
 	},
 ) {
-	return Parser._moneyToFullMultiCurrency(item, "value", "valueMult", opts);
+	return Parser._moneyToFullMultiCurrency(Parser._itemMoneyEnt(item), "value", "valueMult", opts);
+};
+
+/** @private */
+Parser._itemMoneyEnt = function (item) {
+	if (!item) return item;
+	if (item.value != null || item.valueMult != null) return item;
+	if (item.price == null) return item;
+	return {...item, value: Parser.itemValueInCopper(item)};
 };
 
 Parser.itemVehicleCostsToFull = function (item, isShortForm) {

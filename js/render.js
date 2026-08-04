@@ -4433,7 +4433,7 @@ Renderer.utils = class {
 			return isListMode ? "Special" : v;
 		}
 
-		static _getHtml_race ({v, isListMode, keyOptions}) {
+		static _getEntry_race ({v, isListMode, keyOptions}) {
 			const parts = v.map((it, i) => {
 				if (isListMode) {
 					return `${it.name.toTitleCase()}${it.subrace != null ? ` (${it.subrace})` : ""}`;
