@@ -117,7 +117,8 @@
 			"wondrous": true,
 			"entries": [
 				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +1 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
-			]
+			],
+			"price": 8000
 		},
 		{
 			"name": "+1 Fate Dealer's Deck",
@@ -390,7 +391,8 @@
 			"wondrous": true,
 			"entries": [
 				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +2 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
-			]
+			],
+			"price": 16000
 		},
 		{
 			"name": "+2 Fate Dealer's Deck",
@@ -653,7 +655,8 @@
 			"wondrous": true,
 			"entries": [
 				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +3 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
-			]
+			],
+			"price": 28000
 		},
 		{
 			"name": "+3 Fate Dealer's Deck",
@@ -2490,7 +2493,8 @@
 			"entries": [
 				"This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid.",
 				"As a bonus action, if the vessel is empty, you can speak the command word to fill the vessel with one of the following (your choice): ale, olive oil, mead, wine, whiskey, a {@item potion of healing}, a {@item potion of greater healing}, a {@item potion of superior healing}, a {@item potion of supreme healing}, a {@item potion of climbing}, a {@item potion of fire breath}, a {@item potion of flying}, or a {@item potion of dragon's majesty|FTD}. Once this property is used, it can't be used until the next dawn. A potion you create in this way loses its magical properties if it isn't imbibed within 24 hours."
-			]
+			],
+			"price": 80000
 		},
 		{
 			"name": "Ascendant Dragon-Touched Focus",
@@ -3362,7 +3366,8 @@
 			],
 			"lootTables": [
 				"Magic Item Table F"
-			]
+			],
+			"price": 100000
 		},
 		{
 			"name": "Bag of Tricks, Rust",
@@ -3431,7 +3436,8 @@
 			],
 			"lootTables": [
 				"Magic Item Table F"
-			]
+			],
+			"price": 100000
 		},
 		{
 			"name": "Bag of Tricks, Tan",
@@ -3499,7 +3505,8 @@
 			],
 			"lootTables": [
 				"Magic Item Table F"
-			]
+			],
+			"price": 100000
 		},
 		{
 			"name": "Balance Card",
@@ -3952,7 +3959,8 @@
 						"While you aren't wearing armor, the tattoo grants you an Armor Class of 18. You can use a shield and still gain this benefit."
 					]
 				}
-			]
+			],
+			"price": 7500
 		},
 		{
 			"name": "Barrier Tattoo (Medium)",
@@ -3979,7 +3987,8 @@
 						"While you aren't wearing armor, the tattoo grants you an Armor Class of 15 + your Dexterity modifier (maximum of +2). You can use a shield and still gain this benefit."
 					]
 				}
-			]
+			],
+			"price": 2500
 		},
 		{
 			"name": "Barrier Tattoo (Small)",
@@ -4006,7 +4015,8 @@
 						"While you aren't wearing armor, the tattoo grants you an Armor Class of 12 + your dexterity bonus. You can use a shield and still gain this benefit."
 					]
 				}
-			]
+			],
+			"price": 600
 		},
 		{
 			"name": "Basic Fishing Equipment",
@@ -13877,7 +13887,8 @@
 				"For any character entering the enclosed space, the sound fades to silence—because any creature that enters the enclosed space is temporarily {@condition deafened} and must make a {@dc 12} Constitution saving throw. Success indicates the deafness ends 2 minutes after the Draakhorn ceases to sound. Failure indicates the character remains {@condition deafened} for 1 hour after the Draakhorn ceases to sound.",
 				"While the horn is sounding, a creature must make a {@dc 15} Constitution saving throw the first time on a turn the creature enters a 150-foot cone in front of the horn or starts its turn there. On a failed save, the creature takes 27 ({@damage 6d8}) thunder damage and is knocked {@condition prone}. On a successful save, the creature takes half damage and isn't knocked {@condition prone}."
 			],
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 120000
 		},
 		{
 			"name": "Draconic Longsword",
@@ -14124,7 +14135,8 @@
 					]
 				}
 			],
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 250
 		},
 		{
 			"name": "Dread Helm",
@@ -15151,7 +15163,8 @@
 						"conjure elemental"
 					]
 				}
-			}
+			},
+			"price": 960
 		},
 		{
 			"name": "Elemental Gem, Emerald",
@@ -15177,7 +15190,8 @@
 						"conjure elemental"
 					]
 				}
-			}
+			},
+			"price": 960
 		},
 		{
 			"name": "Elemental Gem, Red Corundum",
@@ -15199,7 +15213,8 @@
 						"conjure elemental"
 					]
 				}
-			}
+			},
+			"price": 960
 		},
 		{
 			"name": "Elemental Gem, Yellow Diamond",
@@ -15224,7 +15239,8 @@
 						"conjure elemental"
 					]
 				}
-			}
+			},
+			"price": 960
 		},
 		{
 			"name": "Elephant",
@@ -22714,7 +22730,8 @@
 			"entries": [
 				"The jewels in the insignia of the Cult of the Dragon flare with purple light when you enter combat, empowering your natural fists or natural weapons.",
 				"While wearing the insignia you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
-			]
+			],
+			"price": 600
 		},
 		{
 			"name": "Instrument of Illusions",
@@ -31673,7 +31690,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Advantage",
@@ -31879,7 +31897,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Comprehension",
@@ -31944,7 +31963,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Fire Breath",
@@ -32031,7 +32051,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Flying",
@@ -32093,7 +32114,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Frost Giant Strength",
@@ -32231,7 +32253,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Growth",
@@ -32536,7 +32559,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Longevity",
@@ -32691,7 +32715,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Poison",
@@ -32755,7 +32780,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Polychromy",
@@ -32823,7 +32849,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Radiant Resistance",
@@ -32845,7 +32872,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Speed",
@@ -32969,7 +32997,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 250
 		},
 		{
 			"name": "Potion of Supreme Healing",
@@ -33000,7 +33029,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 150
 		},
 		{
 			"name": "Potion of Thunder Resistance",
@@ -33022,7 +33052,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 300
 		},
 		{
 			"name": "Potion of Vitality",
@@ -41609,7 +41640,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 60
 		},
 		{
 			"name": "Spellwrought Tattoo (2nd Level)",
@@ -41624,7 +41656,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 120
 		},
 		{
 			"name": "Spellwrought Tattoo (3rd Level)",
@@ -41639,7 +41672,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 200
 		},
 		{
 			"name": "Spellwrought Tattoo (4th Level)",
@@ -41654,7 +41688,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 320
 		},
 		{
 			"name": "Spellwrought Tattoo (5th Level)",
@@ -41669,7 +41704,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 640
 		},
 		{
 			"name": "Spellwrought Tattoo (Cantrip)",
@@ -41684,7 +41720,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 10
 		},
 		{
 			"name": "Sphere of Annihilation",

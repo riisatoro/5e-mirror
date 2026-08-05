@@ -617,7 +617,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Cold Resistance",
@@ -643,7 +644,8 @@
 					"{#itemEntry Armor of Resistance}"
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 1500
 		},
 		{
 			"name": "Armor of Fire Resistance",
@@ -668,7 +670,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Force Resistance",
@@ -693,7 +696,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Fungal Spores",
@@ -760,7 +764,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Necrotic Resistance",
@@ -785,7 +790,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Poison Resistance",
@@ -810,7 +816,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Psychic Resistance",
@@ -835,7 +842,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Radiant Resistance",
@@ -860,7 +868,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Safeguarding",
@@ -943,7 +952,8 @@
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
-			}
+			},
+			"price": 1500
 		},
 		{
 			"name": "Armor of Weightlessness",
