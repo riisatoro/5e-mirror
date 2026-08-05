@@ -1771,7 +1771,7 @@
 				"Magic Item Table F"
 			],
 			"hasFluffImages": true,
-			"price": 5000
+			"price": 20000
 		},
 		{
 			"name": "Amulet of Protection from Turning",
@@ -2351,7 +2351,7 @@
 				"Magic Item Table I"
 			],
 			"hasFluffImages": true,
-			"price": 28000
+			"price": 18000
 		},
 		{
 			"name": "Armor of Vulnerability (Bludgeoning)",
@@ -6236,7 +6236,7 @@
 				"Magic Item Table F"
 			],
 			"hasFluffImages": true,
-			"price": 1500
+			"price": 5000
 		},
 		{
 			"name": "Boots of the Winterlands",
@@ -6272,7 +6272,7 @@
 				"Magic Item Table F"
 			],
 			"hasFluffImages": true,
-			"price": 3000
+			"price": 10000
 		},
 		{
 			"name": "Boros Guild Signet",
@@ -8238,7 +8238,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 20000
+			"price": 60000
 		},
 		{
 			"name": "Cloak of Elvenkind",
@@ -10127,7 +10127,7 @@
 				"CF/W"
 			],
 			"hasFluffImages": true,
-			"price": 5000
+			"price": 135000
 		},
 		{
 			"name": "Deck of Dimensions",
@@ -18012,7 +18012,7 @@
 				"Magic Item Table F"
 			],
 			"hasFluffImages": true,
-			"price": 6000
+			"price": 8000
 		},
 		{
 			"name": "Gauntlets of Rage",
@@ -20915,7 +20915,7 @@
 				"Magic Item Table C"
 			],
 			"hasFluffImages": true,
-			"price": 1500
+			"price": 2000
 		},
 		{
 			"name": "Heward's Handy Spice Pouch",
@@ -26817,7 +26817,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 20000
+			"price": 30000
 		},
 		{
 			"name": "Manual of Bodily Health",
@@ -29236,7 +29236,7 @@
 				"Magic Item Table D"
 			],
 			"hasFluffImages": true,
-			"price": 2500
+			"price": 200
 		},
 		{
 			"name": "Oathbow",
@@ -29271,7 +29271,7 @@
 				"Magic Item Table H"
 			],
 			"hasFluffImages": true,
-			"price": 18750
+			"price": 3500
 		},
 		{
 			"name": "Obsidian",
@@ -30826,7 +30826,7 @@
 				"Magic Item Table F"
 			],
 			"hasFluffImages": true,
-			"price": 2000
+			"price": 5000
 		},
 		{
 			"name": "Peridot",
@@ -30892,7 +30892,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 225
+			"price": 90
 		},
 		{
 			"name": "Piercer",
@@ -31738,7 +31738,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 300
+			"price": 200
 		},
 		{
 			"name": "Potion of Aqueous Form",
@@ -31809,7 +31809,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 1350
+			"price": 960
 		},
 		{
 			"name": "Potion of Climbing",
@@ -31846,7 +31846,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 45
+			"price": 180
 		},
 		{
 			"name": "Potion of Cloud Giant Strength",
@@ -31950,7 +31950,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 750
+			"price": 270
 		},
 		{
 			"name": "Potion of Dragon's Majesty",
@@ -31992,7 +31992,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 525
+			"price": 150
 		},
 		{
 			"name": "Potion of Fire Giant Strength",
@@ -32095,7 +32095,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 3750
+			"price": 500
 		},
 		{
 			"name": "Potion of Force Resistance",
@@ -32185,7 +32185,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 2250
+			"price": 300
 		},
 		{
 			"name": "Potion of Giant Size",
@@ -32254,7 +32254,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 300
+			"price": 150
 		},
 		{
 			"name": "Potion of Growth",
@@ -32374,7 +32374,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 1500
+			"price": 50
 		},
 		{
 			"name": "Potion of Heroism",
@@ -32414,7 +32414,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 1200
+			"price": 180
 		},
 		{
 			"name": "Potion of Hill Giant Strength",
@@ -32491,7 +32491,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 3000
+			"price": 180
 		},
 		{
 			"name": "Potion of Invulnerability",
@@ -32535,7 +32535,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 4000
+			"price": 3840
 		},
 		{
 			"name": "Potion of Lightning Resistance",
@@ -32692,7 +32692,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 1650
+			"price": 180
 		},
 		{
 			"name": "Potion of Necrotic Resistance",
@@ -32756,7 +32756,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 750
+			"price": 100
 		},
 		{
 			"name": "Potion of Poison Resistance",
@@ -32902,7 +32902,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 3000
+			"price": 400
 		},
 		{
 			"name": "Potion of Stone Giant Strength",
@@ -32998,7 +32998,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 250
+			"price": 450
 		},
 		{
 			"name": "Potion of Supreme Healing",
@@ -33030,7 +33030,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 150
+			"price": 1350
 		},
 		{
 			"name": "Potion of Thunder Resistance",
@@ -33084,7 +33084,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 2700
+			"price": 960
 		},
 		{
 			"name": "Potion of Watchful Rest",
@@ -33140,7 +33140,7 @@
 				"CNS"
 			],
 			"hasFluffImages": true,
-			"price": 600
+			"price": 180
 		},
 		{
 			"name": "Pouch",
@@ -35183,7 +35183,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 8000
+			"price": 20000
 		},
 		{
 			"name": "Ring of Invisibility",
@@ -35206,7 +35206,7 @@
 				"Magic Item Table I"
 			],
 			"hasFluffImages": true,
-			"price": 101250
+			"price": 10000
 		},
 		{
 			"name": "Ring of Jumping",
@@ -35297,7 +35297,7 @@
 				"Magic Item Table F"
 			],
 			"hasFluffImages": true,
-			"price": 5000
+			"price": 16000
 		},
 		{
 			"name": "Ring of Necrotic Resistance",
@@ -35635,7 +35635,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 5000
+			"price": 24000
 		},
 		{
 			"name": "Ring of Spell Turning",
@@ -35711,7 +35711,7 @@
 				"Magic Item Table H"
 			],
 			"hasFluffImages": true,
-			"price": 37500
+			"price": 80000
 		},
 		{
 			"name": "Ring of Temporal Salvation",
@@ -36351,7 +36351,7 @@
 				"Magic Item Table B"
 			],
 			"hasFluffImages": true,
-			"price": 600
+			"price": "* 5"
 		},
 		{
 			"name": "Robes",
@@ -38681,7 +38681,7 @@
 			"lootTables": [
 				"Magic Item Table F"
 			],
-			"price": 10000
+			"price": 20000
 		},
 		{
 			"name": "Serpent Scale Armor",
@@ -41774,7 +41774,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Spider Staff",
@@ -42633,7 +42634,7 @@
 				"Magic Item Table H"
 			],
 			"hasFluffImages": true,
-			"price": 75000
+			"price": 95500
 		},
 		{
 			"name": "Staff of Ruling",
@@ -45092,7 +45093,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 71680
 		},
 		{
 			"name": "Talisman of the Sphere",
@@ -45148,7 +45150,8 @@
 			"miscTags": [
 				"CNS"
 			],
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"price": 61440
 		},
 		{
 			"name": "Talking Doll",
@@ -49859,7 +49862,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 25000
+			"price": 32000
 		},
 		{
 			"name": "Wand of Lightning Bolts",
@@ -49901,7 +49904,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 25000
+			"price": 32000
 		},
 		{
 			"name": "Wand of Magic Detection",
@@ -50131,7 +50134,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 15000
+			"price": 16000
 		},
 		{
 			"name": "Wand of Polymorph",
@@ -50171,7 +50174,7 @@
 				"Magic Item Table H"
 			],
 			"hasFluffImages": true,
-			"price": 25000
+			"price": 32000
 		},
 		{
 			"name": "Wand of Pyrotechnics",
@@ -52557,7 +52560,7 @@
 				"Armor of Thunder Resistance"
 			],
 			"hasFluffImages": true,
-			"price": 3000
+			"price": 6000
 		},
 		{
 			"name": "Armor of Vulnerability",
@@ -52712,7 +52715,7 @@
 			"lootTables": [
 				"Magic Item Table H"
 			],
-			"price": 35000
+			"price": 12000
 		},
 		{
 			"name": "Chromatic Rose",
@@ -53920,7 +53923,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 1500
+			"price": 50
 		},
 		{
 			"name": "Potion of Mind Control",
@@ -53980,7 +53983,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 750
+			"price": 300
 		},
 		{
 			"name": "Potions of Healing",
@@ -54196,7 +54199,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 4000
+			"price": 6000
 		},
 		{
 			"name": "Rod of the Pact Keeper",

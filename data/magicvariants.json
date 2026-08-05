@@ -1383,7 +1383,7 @@
 				]
 			},
 			"hasFluffImages": true,
-			"price": 5000
+			"price": 2000
 		},
 		{
 			"name": "Defender",
@@ -1889,7 +1889,7 @@
 				]
 			},
 			"hasFluffImages": true,
-			"price": 4000
+			"price": 2200
 		},
 		{
 			"name": "Gambler's Blade",
@@ -1949,7 +1949,7 @@
 				]
 			},
 			"hasFluffImages": true,
-			"price": 5000
+			"price": 7000
 		},
 		{
 			"name": "Glimmering Moonbow",
@@ -3816,7 +3816,7 @@
 				]
 			},
 			"hasFluffImages": true,
-			"price": 10000
+			"price": 60000
 		},
 		{
 			"name": "Winged Ammunition",
