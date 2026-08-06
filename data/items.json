@@ -34770,7 +34770,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Air Elemental Command",
@@ -34913,7 +34914,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Collecting",
@@ -35134,7 +35136,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Force Resistance",
@@ -35156,7 +35159,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Free Action",
@@ -35259,7 +35263,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Mind Shielding",
@@ -35316,7 +35321,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Obscuring",
@@ -35364,7 +35370,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Protection",
@@ -35425,7 +35432,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Puzzler's Wit",
@@ -35458,7 +35466,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Red Fury",
@@ -35824,7 +35833,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
-			]
+			],
+			"price": 15000
 		},
 		{
 			"name": "Ring of Treachery",
@@ -52560,7 +52570,7 @@
 				"Armor of Thunder Resistance"
 			],
 			"hasFluffImages": true,
-			"price": 6000
+			"price": 10000
 		},
 		{
 			"name": "Armor of Vulnerability",
@@ -54199,7 +54209,7 @@
 				"Magic Item Table G"
 			],
 			"hasFluffImages": true,
-			"price": 6000
+			"price": 15000
 		},
 		{
 			"name": "Rod of the Pact Keeper",
