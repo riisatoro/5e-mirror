@@ -524,6 +524,78 @@
 		{
 			"source": "EEPC",
 			"name": "Elemental Evil Player's Companion"
+		},
+		{
+			"source": "FTD",
+			"name": "Fizban's Treasury of Dragons"
+		},
+		{
+			"source": "BookOfEbonTides",
+			"name": "Book of Ebon Tides"
+		},
+		{
+			"source": "DungeonsDrakkenheim",
+			"name": "Dungeons of Drakkenheim"
+		},
+		{
+			"source": "FleeMortals",
+			"name": "Flee, Mortals!"
+		},
+		{
+			"source": "GriffonsSaddlebag2",
+			"name": "Griffon's Saddlebag Book 2"
+		},
+		{
+			"source": "GrimHollowLairsEtharis",
+			"name": "Grim Hollow: Lairs of Etharis"
+		},
+		{
+			"source": "GrimHollowPlayerPack",
+			"name": "Grim Hollow: Player Pack"
+		},
+		{
+			"source": "HelianasGuidetoMonsterHunting",
+			"name": "Heliana's Guide to Monster Hunting"
+		},
+		{
+			"source": "HumblewoodCampaignSetting",
+			"name": "Humblewood Campaign Setting"
+		},
+		{
+			"source": "HumblewoodTales",
+			"name": "Humblewood Tales"
+		},
+		{
+			"source": "IllriggerRevised",
+			"name": "The Illrigger Revised"
+		},
+		{
+			"source": "TalDoreiCampaignSettingReborn",
+			"name": "Tal'Dorei Campaign Setting Reborn"
+		},
+		{
+			"source": "TalesFromTheShadows",
+			"name": "Tales from the Shadows"
+		},
+		{
+			"source": "TLotRR",
+			"name": "The Lord of the Rings Roleplaying"
+		},
+		{
+			"source": "ToB1-2023",
+			"name": "Tome of Beasts 1 (2023 Edition)"
+		},
+		{
+			"source": "WhereEvilLives",
+			"name": "Where Evil Lives: The MCDM Book of Boss Battles"
+		},
+		{
+			"source": "MCV3MC",
+			"name": "Monstrous Compendium Volume 3: Minecraft Creatures"
+		},
+		{
+			"source": "MisMV1",
+			"name": "Misplaced Monsters: Volume 1"
 		}
 	],
 	"approved_sources": [
@@ -546,10 +618,6 @@
 		{
 			"source": "TCE",
 			"name": "Tasha's Cauldron of Everything"
-		},
-		{
-			"source": "FTD",
-			"name": "Fizban's Treasury of Dragons"
 		},
 		{
 			"source": "RoT",

@@ -38252,7 +38252,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 50
 		},
 		{
 			"name": "Scroll of Protection from Beasts",
@@ -38266,7 +38267,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 50
 		},
 		{
 			"name": "Scroll of Protection from Celestials",
@@ -38280,7 +38282,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 50
 		},
 		{
 			"name": "Scroll of Protection from Elementals",
@@ -38294,7 +38297,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 50
 		},
 		{
 			"name": "Scroll of Protection from Fey",
@@ -38308,7 +38312,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 50
 		},
 		{
 			"name": "Scroll of Protection from Fiends",
@@ -38322,7 +38327,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 50
 		},
 		{
 			"name": "Scroll of Protection from Plants",
@@ -38336,7 +38342,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 50
 		},
 		{
 			"name": "Scroll of Protection from Undead",
@@ -38350,7 +38357,8 @@
 			],
 			"miscTags": [
 				"CNS"
-			]
+			],
+			"price": 50
 		},
 		{
 			"name": "Scroll of Tarrasque Summoning",
@@ -41281,7 +41289,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 60
 		},
 		{
 			"name": "Spell Scroll (2nd Level)",
@@ -41313,7 +41321,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 120
 		},
 		{
 			"name": "Spell Scroll (3rd Level)",
@@ -41343,7 +41351,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 200
 		},
 		{
 			"name": "Spell Scroll (4th Level)",
@@ -41373,7 +41381,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 320
 		},
 		{
 			"name": "Spell Scroll (5th Level)",
@@ -41402,7 +41410,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 640
 		},
 		{
 			"name": "Spell Scroll (6th Level)",
@@ -41427,7 +41435,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 1280
 		},
 		{
 			"name": "Spell Scroll (7th Level)",
@@ -41455,7 +41463,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 2560
 		},
 		{
 			"name": "Spell Scroll (8th Level)",
@@ -41481,7 +41489,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 5120
 		},
 		{
 			"name": "Spell Scroll (9th Level)",
@@ -41506,7 +41514,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 10240
 		},
 		{
 			"name": "Spell Scroll (Cantrip)",
@@ -41530,7 +41538,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 27000
+			"price": 10
 		},
 		{
 			"name": "Spellbook",
@@ -52570,7 +52578,7 @@
 				"Armor of Thunder Resistance"
 			],
 			"hasFluffImages": true,
-			"price": 10000
+			"price": 11000
 		},
 		{
 			"name": "Armor of Vulnerability",
@@ -54390,7 +54398,7 @@
 			"miscTags": [
 				"CNS"
 			],
-			"price": 180
+			"price": 50
 		},
 		{
 			"name": "Shard Solitaire",
